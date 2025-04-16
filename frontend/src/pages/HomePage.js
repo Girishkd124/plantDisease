@@ -25,7 +25,7 @@ const HomePage = (props) => {
       <section className="section1 section">
         <img src={heroImage} alt="" />
         <div className="overlay">
-          <h1 data-aos="fade-left">AgroNexus</h1>
+          <h1 data-aos="fade-left">AgroCare</h1>
           <h2 data-aos="fade-right">From Diagnosis To Solution</h2>
           <p className="tagline" data-aos="zoom-in" data-aos-duration="1200">
             The Future of Plant Health is Here

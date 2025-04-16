@@ -101,7 +101,7 @@ const plantDiseaseNamesMapping = {
   "Tomato Mosaic Virus": "Tomato___Tomato_mosaic_virus",
 };
 
-const PredictionPage = (props) => {
+  const PredictionPage = (props) => {
   const alterPrediction = props.alterPrediction;
 
   setTimeout(() => {

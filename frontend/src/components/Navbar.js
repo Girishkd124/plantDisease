@@ -18,7 +18,7 @@ const Navbar = (props) => {
     <div className="navbar">
       <div className="nav-title">
         <Link to="/">
-          <h1 className="title">AgroNexus</h1>
+          <h1 className="title">AgroCare</h1>
           <h3>From Diagnosis To Solution</h3>
         </Link>
       </div>

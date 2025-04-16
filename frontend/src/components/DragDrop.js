@@ -7,14 +7,12 @@ const DragDrop = ({ onFileChange, onRemoveClicked }) => {
 
   const handleFileChange = (event) => {
     const file = event.target.files[0];
-
     if (!file) return;
 
     if (!file.type.startsWith("image/")) {
       setError("You can only upload image files");
       return;
     }
-
     setImage({
       file,
       preview: URL.createObjectURL(file),
@@ -27,7 +25,6 @@ const DragDrop = ({ onFileChange, onRemoveClicked }) => {
     setImage(null);
     document.getElementById("fileInput").value = "";
   };
-  
 
   return (
     <div className="upload-container">
@@ -62,5 +59,4 @@ const DragDrop = ({ onFileChange, onRemoveClicked }) => {
     </div>
   );
 };
-
 export default DragDrop;

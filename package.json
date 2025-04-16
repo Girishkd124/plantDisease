@@ -22,6 +22,7 @@
   },
   "homepage": "https://github.com/Mr-Abhishek-Shinde/plant-disease-identification#readme",
   "dependencies": {
-    "bcrypt": "^5.1.1"
+    "bcrypt": "^5.1.1",
+    "plant-disease-identification": "file:"
   }
 }
